@@ -1,5 +1,35 @@
-template-repository (1.0-1) unstable; urgency=medium
+libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-5) unstable; urgency=medium
 
-  * Initial release
+  * d/control: remove Build-Depends nginx-abi-1.24.0-1
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Sat, 07 Oct 2023 15:31:28 +0200
+
+libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-4) unstable; urgency=medium
+
+  * NEW ABI: rebuild with nginx-abi-1.24.0-1
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Tue, 27 Jun 2023 23:16:41 +0200
+
+libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-3) unstable; urgency=medium
+
+  * d/t/generic rework. The test now checks module after
+    installation/reload/restart.
+  * d/control: bump Standards-Version: 4.6.2, no changes
+  * d/gbb.conf: switched to debian branch main (debian-branch = main)
+  * d/copyright: bump my copyright year
+  * d/copyright: update text to be compatible with 'cme update dpkg-copyright'
+  * NEW ABI: rebuild with nginx-abi-1.22.1-7
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Mon, 13 Feb 2023 12:56:49 +0100
+
+libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-2) unstable; urgency=medium
+
+  * d/control: added Multi-Arch: foreign
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Fri, 09 Dec 2022 12:50:31 +0100
+
+libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-1) experimental; urgency=medium
+
+  * Initial release. (Closes: 1024379)
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Wed, 30 Nov 2022 14:46:59 +0100
