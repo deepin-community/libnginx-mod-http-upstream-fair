@@ -1,3 +1,12 @@
+libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-6) unstable; urgency=medium
+
+  * d/control: update my email to janmojzis@debian.org
+  * d/copyright: update my email to janmojzis@debian.org
+  * d/control: bump Standards-Version: 4.7.2, no changes
+  * d/copyright: bump debian/* copyright year
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Fri, 11 Apr 2025 14:27:03 +0200
+
 libnginx-mod-http-upstream-fair (1:0.0~git20120408.a18b409-5) unstable; urgency=medium
 
   * d/control: remove Build-Depends nginx-abi-1.24.0-1
